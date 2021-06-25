@@ -3400,9 +3400,8 @@ input, select, textarea {
 		#intro p {
 			font-size: 1.25rem;
 			font-style: italic;
-			margin-top: -0.20rem;
+			margin-top: -0.25rem;
 			text-align: center;
-			text-indent: 20em;
 		}
 
 		#intro + #header {
@@ -3791,7 +3790,7 @@ input, select, textarea {
 		}
 
 			#main > .post header.major > .date {
-				margin-top: 0rem;
+				margin-top: -2rem;
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
@@ -3801,15 +3800,13 @@ input, select, textarea {
 			}
 
 			#main > .post.featured {
-				text-align: justify;
-				width: 100%;
-				
+				text-align: center;
 			}
 
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 0rem 0rem 0rem 0rem ;
+					padding: 6rem 4rem 4rem 4rem ;
 				}
 
 			}
