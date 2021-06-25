@@ -3802,8 +3802,8 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: justify;
-				width: 75%;
-				padding: 0rem 0rem 0rem 20rem ;
+				width: 100%;
+				
 			}
 
 			@media screen and (max-width: 1280px) {
