@@ -1,3 +1,24 @@
+// Hero quote
+.hero-quote {
+  text-align: center;
+  padding: $space-xxl $space-md;
+  margin-bottom: $space-xl;
+}
+
+.hero-sanskrit {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--heading);
+  margin-bottom: $space-sm;
+  letter-spacing: 0.02em;
+}
+
+.hero-translation {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
 // About / Homepage
 .about-hero {
   display: flex;
@@ -58,25 +79,6 @@
 .about-bio {
   margin-bottom: $space-lg;
   line-height: 1.8;
-}
-
-.about-quote {
-  font-size: 1.2rem;
-  text-align: center;
-  color: var(--text-light);
-  margin: $space-lg 0;
-  padding: $space-md 0;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-
-  .quote-text {
-    font-style: italic;
-    margin-bottom: $space-xs;
-  }
-
-  .quote-source {
-    font-size: 0.85rem;
-  }
 }
 
 // News
