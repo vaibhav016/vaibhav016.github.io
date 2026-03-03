@@ -19,6 +19,15 @@
   font-style: italic;
 }
 
+// About section panel
+.about-section {
+  background: var(--bg-overlay);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: $space-xl $space-lg;
+  backdrop-filter: blur(6px);
+}
+
 // About / Homepage
 .about-hero {
   display: flex;
