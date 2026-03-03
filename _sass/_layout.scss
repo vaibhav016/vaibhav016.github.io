@@ -109,6 +109,8 @@
   max-width: $content-width;
   margin: 0 auto;
   padding: $space-xl $space-md;
+  background: var(--bg-overlay);
+  border-radius: 8px;
 }
 
 .page-title {

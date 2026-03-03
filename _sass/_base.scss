@@ -42,7 +42,12 @@ body {
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text);
-  background: linear-gradient(var(--bg-overlay), var(--bg-overlay)), url('/images/book_wisdom.jpeg') center / cover no-repeat fixed var(--bg);
+  background-color: var(--bg);
+  background-image: url('/images/book_wisdom.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
 }
 
