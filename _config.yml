@@ -1,0 +1,83 @@
+title: Vaibhav Singh
+description: >-
+  PhD Student at Mila, Concordia University. Research on continual learning,
+  energy-based models, and efficient inference for LLMs.
+url: "https://vaibhav016.github.io"
+baseurl: ""
+
+author:
+  name: Vaibhav Singh
+  email: vaibhav.singh@mila.quebec
+  affiliation: Mila, Concordia University
+  location: Montreal, Canada
+  twitter: VAIBHAV22155287
+  facebook: profile.php?id=100009340676004
+  instagram: vaibhav_016
+  linkedin: vaibhav-singh-28607a125
+  github: vaibhav016
+  scholar: "" # TODO: Add Google Scholar ID
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  projects:
+    output: false
+    sort_by: order
+  journey:
+    output: false
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "journey"
+    values:
+      layout: "page"
+  - scope:
+      path: "pages"
+    values:
+      layout: "page"
+
+scholar:
+  style: apa
+  locale: en
+  source: _bibliography
+  bibliography: papers.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+
+plugins:
+  - jekyll-scholar
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - LICENSE.txt
+  - Learnings.txt
+  - README.md

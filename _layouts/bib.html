@@ -1,0 +1,15 @@
+<div class="pub-entry">
+  <div class="pub-title">{{ entry.title }}</div>
+  <div class="pub-authors">{{ entry.author }}</div>
+  <div class="pub-venue">
+    {% if entry.booktitle %}{{ entry.booktitle }}{% endif %}
+    {% if entry.journal %}{{ entry.journal }}{% endif %}
+    {% if entry.year %} ({{ entry.year }}){% endif %}
+    {% if entry.note %} <span class="pub-note">{{ entry.note }}</span>{% endif %}
+  </div>
+  <div class="pub-links">
+    {% if entry.url and entry.url != "" %}<a href="{{ entry.url }}" target="_blank" rel="noopener">[Paper]</a>{% endif %}
+    {% if entry.code %}<a href="{{ entry.code }}" target="_blank" rel="noopener">[Code]</a>{% endif %}
+    {% if entry.slides %}<a href="{{ entry.slides }}" target="_blank" rel="noopener">[Slides]</a>{% endif %}
+  </div>
+</div>
