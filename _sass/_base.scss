@@ -9,7 +9,7 @@
   --accent-hover: #{$color-accent-hover};
   --border: #{$color-border};
   --code-bg: #{$color-code-bg};
-  --bg-overlay: rgba(255, 255, 255, 0.85);
+  --bg-overlay: rgba(255, 255, 255, 0.55);
 }
 
 [data-theme="dark"] {
@@ -22,7 +22,7 @@
   --accent-hover: #{$dark-accent-hover};
   --border: #{$dark-border};
   --code-bg: #{$dark-code-bg};
-  --bg-overlay: rgba(26, 26, 46, 0.88);
+  --bg-overlay: rgba(26, 26, 46, 0.6);
 }
 
 // Reset
