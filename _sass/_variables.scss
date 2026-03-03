@@ -1,0 +1,44 @@
+// Colors — Light theme
+$color-bg: #ffffff;
+$color-bg-alt: #f8f9fa;
+$color-text: #2d3436;
+$color-text-light: #636e72;
+$color-heading: #1a1a2e;
+$color-accent: #2563eb;
+$color-accent-hover: #1d4ed8;
+$color-border: #e2e8f0;
+$color-code-bg: #f1f5f9;
+
+// Colors — Dark theme
+$dark-bg: #1a1a2e;
+$dark-bg-alt: #16213e;
+$dark-text: #e2e8f0;
+$dark-text-light: #94a3b8;
+$dark-heading: #f1f5f9;
+$dark-accent: #60a5fa;
+$dark-accent-hover: #93c5fd;
+$dark-border: #334155;
+$dark-code-bg: #1e293b;
+
+// Fonts
+$font-body: 'Merriweather', Georgia, serif;
+$font-heading: 'Source Sans Pro', -apple-system, sans-serif;
+$font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+// Sizing
+$content-width: 48rem;
+$grid-width: 72rem;
+$nav-height: 3.5rem;
+
+// Breakpoints
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+
+// Spacing
+$space-xs: 0.25rem;
+$space-sm: 0.5rem;
+$space-md: 1rem;
+$space-lg: 2rem;
+$space-xl: 3rem;
+$space-xxl: 4rem;

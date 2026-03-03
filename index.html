@@ -1,188 +1,53 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Vaibhav Singh portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+---
+layout: about
+title: Home
+---
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-				<!-- Intro -->
-					<div id="intro">
-						<h1> "प्रज्ञानम् ब्रह्म" </h1>
-						<p1>(Knowledge is Holy)</p1>
+<div class="about-hero">
+  <img src="{{ '/images/headshot.jpg' | relative_url }}" alt="Vaibhav Singh" class="about-photo" onerror="this.style.display='none'">
+  <div class="about-info">
+    <h1 class="about-name">Vaibhav Singh</h1>
+    <p class="about-role">PhD Student in Computer Science</p>
+    <p class="about-affiliation">Mila, Concordia University &middot; Montreal, Canada</p>
+    <div class="about-links">
+      <a href="mailto:vaibhav.singh@mila.quebec">vaibhav.singh@mila.quebec</a>
+      <span class="separator">|</span>
+      <a href="https://scholar.google.com/" target="_blank" rel="noopener">Scholar</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/vaibhav016" target="_blank" rel="noopener">GitHub</a>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/vaibhav-singh-28607a125/" target="_blank" rel="noopener">LinkedIn</a>
+      <span class="separator">|</span>
+      <a href="{{ '/src/docs/CV_2025.pdf' | relative_url }}" target="_blank">CV</a>
+    </div>
 
-						<p>	 &emsp; -Aitareya Upanishad <br><br></p>
+    <button class="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-circle-half-stroke"></i></button>
+  </div>
+</div>
 
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+<div class="about-bio">
+  <p>
+    I am a 3rd-year PhD student at <a href="https://mila.quebec/" target="_blank" rel="noopener">Mila</a> and <a href="https://www.concordia.ca/" target="_blank" rel="noopener">Concordia University</a>, advised by <a href="https://eugenium.github.io/" target="_blank" rel="noopener">Eugene Belilovsky</a>. My research focuses on <strong>continual learning</strong>, <strong>energy-based models</strong>, and <strong>efficient inference for large language models</strong>.
+  </p>
+  <p>
+    I am currently a Research Intern at <strong>ServiceNow</strong>, working on improving inference efficiency of LLMs through hybrid architectures (SSMs, Linear Attention). Previously, I completed my MS at <strong>NYU</strong> (working with Anna Choromanska on EBMs for continual learning), worked as a Software Engineer at <strong>Flipkart</strong>, and earned my B.Tech from <strong>DTU, Delhi</strong>.
+  </p>
+</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"> Vaibhav Singh</a>
-					</header>
+<div class="about-quote">
+  <div class="quote-text">"प्रज्ञानम् ब्रह्म"</div>
+  <div class="quote-source">(Consciousness is Brahman) &mdash; Aitareya Upanishad</div>
+</div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Journey</a></li>
-							<li><a href="src/projects/projects.html">Projects</a></li>
-							<li><a href="src/research/research.html">Research work</a></li>
-							<!-- <li><a href="experience.html">Experience</a></li> -->
-							<li><a href="https://vaibhav016.github.io/Resume_2021.pdf" target="_blank">CV</a></li>
-							<li><a href="src/music/music.html">Music</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://twitter.com/VAIBHAV22155287" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/profile.php?id=100009340676004" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/vaibhav_016/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.linkedin.com/in/vaibhav-singh-28607a125/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/vaibhav016/" target="_blank" class="icon brands fa-github" ><span class="label">GitHub</span></a></li>
-						
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">1 August, 2021</span>
-									<h2> 
-										Research Assistantship at IIIT-Delhi.
-									</h2>
-									<p>Started working in actual sense of verifying propsosed hypothesis.</p>
-								</header>
-								<a href="src/journey/research_experience_01.html" class="image main"><img src="images/research_final_01.jpeg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="src/journey/research_experience_01.html" class="button large">Full Story</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-
-								<article>
-									<header>
-										<span class="date">1 March, 2021</span>
-										<h2><a href="src/journey/life_after_job_02.html">
-											Life after Flipkart!!
-										</a></h2>
-									</header>
-									<a href="src/journey/life_after_job_02.html" class="image fit"><img src="images/Flipkart_journey_02.jpeg" alt="" /></a>
-									<p>Had some great relationships and learning but now time to grind and work towards research!
-									<ul class="actions special">
-										<li><a href="src/journey/life_after_job_02.html" class="button">Full Story</a></li>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-										<span class="date">1 October, 2020</span>
-										<h2><a href="src/journey/remote_03.html">Covid, Remote Work, with a pinch of Spirituality
-											</a></h2>
-									</header>
-									<a href="src/journey/remote_03.html" class="image fit"><img src="images/remote_spirit_journey_03.jpeg" alt="" /></a>
-									<p> Remote work plus some guitar and my introduction with me myself. 
-									<ul class="actions special">
-										<li><a href="src/journey/remote_03.html" class="button">Full Story</a></li>
-									</ul>
-								</article>
-
-
-
-								<article>
-									<header>
-										<span class="date">1 January, 2020</span>
-										<h2><a href="src/journey/job_start_04.html">Flipkart: A life with big discounts!!></h2>
-									</header>
-									<a href="src/journey/job_start_04.html" class="image fit"><img src="images/Flipkart_journey_04.jpeg" alt="" /></a>
-									<p>Started working at India's biggest e-commerece company and the experience is ineffable
-									<ul class="actions special">
-										<li><a href="src/journey/job_start_04.html" class="button">Full Story</a></li>
-									</ul>
-								</article>
-
-
-
-								<article>
-									<header>
-										<span class="date">1 October, 2019</span>
-										<h2><a href="src/journey/paris_05.html">A trip to Paris and CERN</a></h2>
-									</header>
-									<a href="src/journey/paris_05.html" class="image fit"><img src="images/louvre_journey_05.jpeg" alt="" /></a>
-									<p> Had an opportunity of visiting Paris and Switzerland for Research Presentation and it was awe-inspiring.
-									<ul class="actions special">
-										<li><a href="src/journey/paris_05.html" class="button">Full Story</a></li>
-									</ul>
-								</article>
-
-								
-							</section>
-
-							<article class="post featured">
-							
-								<header>
-									<span class="date">1 July, 2019</span>
-									<h2><a href="src/journey/college_06.html">Introspection about College Life! </a></h2>
-								</header>
-								<a href="src/journey/college_06.html" class="image fit"><img src="images/College_journey_06.jpeg" alt="" /></a>
-								<p> A friend once told me that "college life is a break of 4 years". I never realised that it would be over so soon.
-								<ul class="actions special">
-									<li><a href="src/journey/college_06.html" class="button">Full Story</a></li>
-								</ul>
-								
-							</article>
-                   
-
-						<!-- not needed now, but might need in future. -->
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-
-									<!-- 
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-									-->
-
-								</div>
-							</footer>
-
-					</div>
-
-			
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>Copyright &copy; 2021 Vaibhav Singh. All rights reserved</li>
-						</ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+<div class="news-section">
+  <h2>News</h2>
+  <ul class="news-list">
+    <li><span class="news-date">Jul 2025</span><span>Research Intern at ServiceNow, working on efficient LLM inference</span></li>
+    <li><span class="news-date">2025</span><span>Paper accepted at <strong>CoLLAs 2025</strong> (oral) — <em>Beyond Cosine Decay</em></span></li>
+    <li><span class="news-date">2025</span><span>Paper at <strong>ICML 2025 ESFOMO</strong> workshop — <em>Model Parallelism With Subnetwork Data Parallelism</em></span></li>
+    <li><span class="news-date">2024</span><span>Paper at <strong>CVPR 2024 CLVISION</strong> workshop — <em>Wake-Sleep Energy-Based Models for Continual Learning</em></span></li>
+    <li><span class="news-date">Fall 2024</span><span>TA for Representation Learning (IFT-6150) at Mila</span></li>
+    <li><span class="news-date">2024</span><span>Research Assistant at Applied AI Institute, Quebec — RAG system for Cybersecurity Ministry</span></li>
+    <li><span class="news-date">2023</span><span>Started PhD at Mila, Concordia University</span></li>
+  </ul>
+</div>

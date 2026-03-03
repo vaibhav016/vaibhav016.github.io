@@ -1,0 +1,86 @@
+// Rouge syntax highlighting — GitHub-inspired light / Monokai-inspired dark
+.highlight {
+  margin-bottom: $space-md;
+  border-radius: 6px;
+  overflow-x: auto;
+
+  pre {
+    margin: 0;
+  }
+}
+
+// Light theme syntax colors
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs { color: #6a737d; font-style: italic; }
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt { color: #d73a49; }
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .s1 { color: #032f62; }
+.highlight .na { color: #6f42c1; }
+.highlight .nb { color: #005cc5; }
+.highlight .nc { color: #6f42c1; }
+.highlight .no { color: #005cc5; }
+.highlight .nf,
+.highlight .nx { color: #6f42c1; }
+.highlight .nn { color: #005cc5; }
+.highlight .mi,
+.highlight .mf,
+.highlight .mh,
+.highlight .mo { color: #005cc5; }
+.highlight .o,
+.highlight .ow { color: #d73a49; }
+.highlight .p { color: var(--text); }
+.highlight .se { color: #032f62; }
+.highlight .sr { color: #032f62; }
+.highlight .si { color: #032f62; }
+.highlight .err { color: #cb2431; }
+
+// Dark theme overrides
+[data-theme="dark"] {
+  .highlight .c,
+  .highlight .cm,
+  .highlight .c1,
+  .highlight .cs { color: #75715e; }
+  .highlight .k,
+  .highlight .kd,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr,
+  .highlight .kt { color: #f92672; }
+  .highlight .s,
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .sh,
+  .highlight .s1 { color: #e6db74; }
+  .highlight .na { color: #a6e22e; }
+  .highlight .nb { color: #66d9ef; }
+  .highlight .nc { color: #a6e22e; }
+  .highlight .no { color: #66d9ef; }
+  .highlight .nf,
+  .highlight .nx { color: #a6e22e; }
+  .highlight .nn { color: #66d9ef; }
+  .highlight .mi,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mo { color: #ae81ff; }
+  .highlight .o,
+  .highlight .ow { color: #f92672; }
+  .highlight .p { color: var(--text); }
+  .highlight .se { color: #ae81ff; }
+  .highlight .sr { color: #e6db74; }
+  .highlight .si { color: #e6db74; }
+  .highlight .err { color: #f92672; }
+}
